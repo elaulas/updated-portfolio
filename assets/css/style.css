@@ -1,0 +1,214 @@
+/* font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Passion One', cursive; */
+
+.video-container {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 800px; 
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 800px; 
+    
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+    
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  
+  body { 
+    background: #fff;
+    color: #353A3F;
+    font-family: 'Oxygen', sans-serif;
+  }
+    
+  .overlay {
+    background: rgba(130, 130, 130, 0.5);
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+    right: 0;
+    width: 95%;
+    max-width: 45em;
+    margin: auto auto 1em;
+    box-sizing: border-box;
+    padding: 2em;
+    line-height: 1.5;
+    text-align: center;
+    
+  }
+
+  #myPicture {
+      border-radius: 50%;
+      border: 2px solid #353A3F;
+      filter: drop-shadow(8px 8px 10px rgb(70, 70, 70));
+      
+  }
+
+  #navLinks {
+      text-align: center;
+  }
+
+  #linkOne {
+      margin-right: 25px;
+  }
+  #linkThree {
+      margin-left: 25px;
+  }
+
+#linkOne, #linkTwo, #linkThree {
+    font-family: 'Anton', sans-serif;
+    font-size: 200%;
+    margin-bottom: -50px;
+
+}
+#linkOne:hover, #linkTwo:hover, #linkThree:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#myName {
+    font-family: 'Passion One', cursive;
+    font-size: 75pt;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+#mySubTitle {
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+.downArrow {
+    /* background: rgba(130, 130, 130, 0.5); */
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    right: 0;
+    width: fit-content;
+    height: auto;
+    /* max-width: 45em;
+    margin: auto auto 1em;
+    box-sizing: border-box;
+    padding: 2em;
+    line-height: 1.5; */
+    text-align: center;
+    font-size: 45pt;
+    color: white;
+}
+
+.downArrow:hover {
+    text-shadow: 2px 2px #353A3F;
+    color: gray;
+}
+
+#elaulasFam {
+    width: 250px;
+    float: left;
+    padding-right: 20px;
+    filter: drop-shadow(8px 8px 10px rgb(70, 70, 70));
+}
+
+p {
+    color: #353A3F;
+}
+
+#myBio {
+    margin: 35px;
+    border-right: 3px solid #353A3F;
+    padding-right: 10px;
+}
+
+.college {
+    width: 100px;
+    margin-left: 0px;
+    background-color: white;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  margin-bottom: 25px;
+
+}
+
+.containerCollege {
+    text-align: center;
+    padding: 10px 20px;
+    width: fit-content;
+    float: left;
+    margin-bottom: 0;
+  }
+  #education {
+      background-color: #353A3F;
+      color: white;
+      margin-right: 50px;
+  }
+
+  #containerEducation {
+      border: 1px solid #353A3F;
+      margin-right: 50px;
+      clear: both;
+  }
+  #educationTwo {
+    position: relative;  
+    top: -200px;
+  }
+.skillImage {
+    width: 90px;
+    height: auto;
+}
+
+#collegesGroup {
+    margin-left: 60px;
+}
+
+#portfolioSection {
+    background-color: #353A3F;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolioImage {
+    width: 500px;
+    margin-right: 50px;
+    margin-top: 75px;
+    margin-bottom: 100px;
+    filter: drop-shadow(8px 8px 10px rgb(147, 147, 147));
+    border-radius: 5%;
+}
+
+.portfolioImage:hover {
+    transform: scale(1.5);
+
+
+@media only screen and (max-width: 768px) {
+    #educationTwo {
+        top: 0;
+
+
+}
+
+@media only screen and (max-width: 1508px) {
+    #educationTwo {
+        top: 0;
+    }
+
+}
+
+/* 640 px */
+
+@media only screen and (max-width: 640px) {
+    #educationTwo {
+        top: 0;
+    }

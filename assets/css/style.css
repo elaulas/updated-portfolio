@@ -172,7 +172,7 @@ p {
 }
 
 #portfolioSection {
-    background-color: #353A3F;
+    background: linear-gradient(to left, #353A3F , #89253e);
     color: white;
     width: 100%;
     text-align: center;
@@ -190,14 +190,65 @@ p {
 
 .portfolioImage:hover {
     transform: scale(1.5);
+}
+/*Contact sectiom*/
+.content-header{
+    font-family: 'Oleo Script', cursive;
+    color:#fcc500;
+    font-size: 45px;
+  }
+  
+  .section-content{
+    text-align: center; 
+  
+  }
+  #contact{
+      
+      font-family: 'Teko', sans-serif;
+    padding-top: 60px;
+    width: 100%;
+    width: 100vw;
+    height: 100%;
+    background: #3a6186; /* fallback for old browsers */
 
+    background-color: #353A3F;
+      color : #fff;  
+  }
+  form {
+      margin-left: 25px;
+  }
+  .connectWithMe {
+      background-color: white;
+      width: 100%;
+      height: auto;
+      padding: 50px;
+      margin-left: 33%;
+      margin-top: 30px;
+      border-radius: 10%;
+      color: #353A3F;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
 
 @media only screen and (max-width: 768px) {
     #educationTwo {
         top: 0;
 
-
-}
+    }
+    }
 
 @media only screen and (max-width: 1508px) {
     #educationTwo {
@@ -212,3 +263,4 @@ p {
     #educationTwo {
         top: 0;
     }
+}

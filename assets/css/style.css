@@ -134,7 +134,6 @@ p {
 
 
 .college {
-    width: 100px;
     margin-left: 0px;
     background-color: white;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
@@ -233,9 +232,18 @@ p {
       color: #353A3F;
   }
   
-
-
-
+  #dbu {
+      width: 171px;
+  }
+  #smu {
+      width: 107px;
+  }
+  #ou {
+      width: 100px;
+  }
+ #collegeFont {
+     font-size: 9pt;
+ }
 
 
 
@@ -249,20 +257,51 @@ p {
 
 /* Media Queries */
 
-@media only screen and (max-width: 768px) {
+
+
+@media only screen and (max-width: 1521px) {
+
     #educationTwo {
-        top: 0;
+        top: -280px;
 
     }
+    #smu {
+        width:64px;
+    }
+    #ou {
+        width: 60px;
+    }
+    #dbu {
+        width: 108px;
     }
 
-@media only screen and (max-width: 1508px) {
-    #educationTwo {
-        top: 0;
+    .skillImage {
+        width: 75px;
+        margin-left: 5px;
     }
 
 }
-
+@media only screen and (max-width: 1482px) {
+#collegeFont {
+    font-size: 7pt;
+}
+@media only screen and (max-width: 1307px) {
+    #educationTwo {
+        top: -400px;
+    }
+    @media only screen and (max-width: 1262px) {
+        #educationTwo {
+            top: -300px;
+        }
+}
+@media only screen and (max-width: 991px) {
+    #educationTwo {
+        top: 0px;
+    }
+    .containerSkills {
+        margin-bottom: 50px;
+    }
+    }
 /* 640 px */
 
 @media only screen and (max-width: 640px) {

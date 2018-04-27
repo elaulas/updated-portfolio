@@ -219,14 +219,15 @@ p {
       color : #fff;  
   }
   form {
-      margin-left: 25px;
+      margin-left: 50px;
+      margin-right: 50px;
   }
   .connectWithMe {
       background-color: white;
       width: 100%;
       height: auto;
       padding: 50px;
-      margin-left: 33%;
+      margin-left: 50%;
       margin-top: 30px;
       border-radius: 10%;
       color: #353A3F;
